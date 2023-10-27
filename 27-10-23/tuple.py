@@ -1,0 +1,7 @@
+u=(4,5,6,7,8,9)
+j=list(u)
+print(j)
+a=(int (input("enter a item to add \n")))
+j.append(a)
+u=tuple(j)
+print(u)
